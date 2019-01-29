@@ -1,0 +1,278 @@
+/* *{
+    
+    outline: 1px solid black;
+} */
+.page{
+    max-width: 970px;
+    margin: 0px;
+}
+p{
+    margin: 0px;
+    background-color: #dddddd;
+    font-size: 50px;
+    padding: 5px 30px;
+    margin: 0px;
+}
+p span{
+    line-height: 50px;
+    text-align: right;
+    font-size: 30px;
+    padding: 10px;
+    margin-left: 170px;
+}
+.main{
+    background-image: radial-gradient(circle, #9b828e 10%, #27161b 70%);
+}
+#topLeftImage{
+    vertical-align: top;
+    width: 450px;
+    height: 350px;
+    display: inline-block;
+    padding: 10px;
+}
+.topRight{
+    margin: 10px;
+    vertical-align: top;
+    width: 450px;
+    height: 350px;
+    display: inline-block;
+    border: 10px;
+    background-image: radial-gradient(farthest-corner at 90% 95%, #888888 2%, #dddddd 70%);
+}
+.topRight h2{
+    margin: 0px;
+    background-image: linear-gradient(#dddddd, #888888, #dddddd);
+    padding: 10px;
+    height: 0px 30px 10px;
+    font-size: 30px;
+    color: white;
+}
+.topRight p{
+    padding: 10px;
+    margin: 0px 10px;
+    font-size: 20px;
+
+}
+.topRight a{
+    padding: 10px;
+    margin: 10px;
+    font-size: 20px;
+    color: black;
+}
+.cards{
+    width: 296px;
+    margin: 12px;
+    background-image: radial-gradient(farthest-corner at 90% 95%, #888888 2%, #dddddd 70%);
+    display: inline-block;
+    vertical-align: top;
+}
+.cards h2{
+    background-image: linear-gradient(#dddddd, #888888, #dddddd);
+    padding: 3px;
+    margin: 0px;
+    height: 30px;
+    font-size: 30px;
+    color: white;
+}
+.topImage{
+    width: 296px;
+    height: 200px;
+    margin: 0px;
+    padding: 0px;
+}
+.cards p{
+    font-size: 20-px;
+    padding: 0px;
+    margin: 10px;
+}
+.cards h3{
+    background-image: linear-gradient(#dddddd, #888888, #dddddd);
+    padding: 3px;
+    margin: 0px;
+    height: 30px;
+    font-size: 25px;
+    color: white;
+}
+.imageList{
+    display: inline-block;
+}
+.imageStack{
+    width: 56px;
+    height: 56px;
+}
+.imageList input{
+    text-align: center;
+    display: block;
+    width: 200px;
+    height: 50px;
+    padding: 10px;
+    margin: 10px 45px;
+    background-color: green;
+    border-radius: 10px;
+    font-size: 25px;
+    color: white;
+}
+footer{
+    text-align: center;
+    background-color: #dddddd;
+    margin: 0px;
+}
+footer p{
+    margin-top: 0px;
+    padding-top: 15px;
+    font-size: 25px;
+    text-align: center;
+}
+footer img{
+    padding: 0px;
+    width: 35px;
+    display: inline-block;
+    vertical-align: top;
+}
+footer a{
+    padding: 0px;
+    font-size: 25px;
+    vertical-align: top;
+    line-height: 35px;
+    display: inline-block;
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* body{
+    width: 1200px;
+    height:1200px;
+    background-color: black;
+} */
+/* h1{
+    width: 1200px;
+    height: 100px;
+    background-color: rgb(200,200,200);
+}
+h2{
+    padding: 10px;
+    font-size: 35px;
+    background-color: #757575;
+    color: #eeeeee;
+}
+h3{
+    padding: 10px;
+    font-size: 30px;
+    background-color: #757575;
+    color: #eeeeee;
+}
+/* #name{
+    /* background-color: rgb(200,200,200); 
+    width: 570px;
+    padding: 20px;
+    text-align: left;
+    font-size: 50px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: left; */
+}
+#adjective{
+    /* background-color: rgb(200,200,200);
+    text-align: center;
+    width: 500px;
+    padding: 30px;
+    font-size: 30px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+}
+#main{
+    background-color: rgb(37, 19, 37);
+    width: 1200px;
+}
+#maintop{
+    border: 20px;
+    display: inline-block;
+    align-content: center;
+    width: 450px;
+}
+#topLeftImage{
+    width: 550px;
+    height: 450px;
+    display: inline-block;
+    vertical-align: top;
+}
+#topRight{
+    width: 550px;
+    height: 450px;
+    background-color: rgb(200,200,200);
+    display: inline-block;
+    vertical-align: top;
+}
+#topRight p{
+    font-size: 14px;
+}
+#mainBottom3{
+    display: inline;
+    border: 20px;
+}
+.cards{
+    vertical-align: top;
+    width: 550px;
+    background-color: rgb(200,200,200);
+    display: inline-block;
+    
+}
+.cards p{
+    font-size: 14px;
+    width: 450px;
+    height: 400px;
+}
+.cards image{
+    width: 400px;
+    height: 300px;
+}
+.imageStackimage{
+    width: 50px;
+    height: 50px;
+}
+#footer{
+    background-color: rgb(200,200,200);
+    text-align: center;
+    width: 1200px;
+    height: 100px;
+} */ 
